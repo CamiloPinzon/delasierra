@@ -8,9 +8,6 @@ import './hero.styles.scss';
 const Hero = () => {
     return(
         <div className="hero-container">
-            <div className="hero-bg_container">
-                <img src="https://delasierrabanda.com/gral-assets/BannerAurora.png" alt="Background medusas"/>
-            </div>
             <div className="hero-content_container">
                 <div className="hero-content_aurora">
                     <Aurora />
@@ -24,7 +21,7 @@ const Hero = () => {
                     </a>
                 </div>
                 <div className="hero-content_embed">
-                    <iframe src="https://open.spotify.com/embed/track/03AvvQELnfgJPnhWVQ4ZMJ?utm_source=generator&theme=0" frameborder="0" width="100%" height="152" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" ></iframe>
+                    <iframe src="https://open.spotify.com/embed/track/03AvvQELnfgJPnhWVQ4ZMJ?utm_source=generator&theme=0" frameBorder="0" width="100%" height="152" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" ></iframe>
                 </div>
             </div>
         </div>

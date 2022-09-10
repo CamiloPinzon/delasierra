@@ -1,0 +1,65 @@
+.footer-container {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: #1E1737;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url('../../assets/svg/logo-footer.svg');
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    padding: 33px 93px 42px 93px;
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.1em;
+    }
+    .footer_contacto {
+
+        .footer_email {
+            font-weight: 300;
+            margin-top: 21px;
+    
+        }
+    
+        .footer_whatsapp {
+            font-weight: 300;
+            margin-top: 5px;
+        }
+    }
+
+    .footer_redes {
+        display: flex;
+        align-items: center;
+
+        .social_icon {
+            width: 45px;
+            height: 45px;
+            background-color: #362B59;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 9px;
+
+            a {
+                padding-top: 4px;
+            }
+        }
+
+        .facebook_icon {
+            a {
+                padding-top: 10px;
+            }
+        }
+    }
+
+    .footer_newsletter {
+        font-weight: 700;
+        text-align: center;
+        font-size: 24px;
+    }
+}

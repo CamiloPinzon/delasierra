@@ -1,19 +1,18 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 
+import HeaderMenu from "../../components/header-menu/header-menu.component";
+import Footer from "../../components/footer/footer.component";
+
 import './navigation.styles.scss';
 
 const Navigation = () => {
     return (
-    <div className="navigation-container">
-        <div className="menu-container">
-            <div className="menu-home">
-                <div className="nombre-banda">DELASIERRA</div>
-                <div className="sub-title">Reggae Rocksteady</div>
-            </div>
-        </div>
+    <>
+        <HeaderMenu />
         <Outlet />
-    </div>
+        <Footer />
+    </>
     )
 };
 
