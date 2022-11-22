@@ -1,0 +1,33 @@
+.newsletter-header {
+    h2 {
+        margin: 0;
+    }
+}
+.newsletter-form {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    .check-label {
+        display: flex;
+        color: grey;
+        align-items: center;
+        align-content: center;
+        .check-input {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+    }
+    .suscribir-button {
+        background-color: transparent;
+        border: 2px solid #ffffff;
+        color: #ffffff;
+        border-radius: 10px;
+        padding: 10px 20px;
+        margin-top: 15px;
+        width: 100%;
+        cursor: pointer;
+    }
+}
