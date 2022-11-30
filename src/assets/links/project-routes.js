@@ -1,7 +1,7 @@
 const PROJECT_ROUTES = {
   SEASONAL_LINKS: {
-    spotifyIframe: 'https://open.spotify.com/embed/track/03AvvQELnfgJPnhWVQ4ZMJ?utm_source=generator&theme=0',
-    songLink: 'https://open.spotify.com/track/03AvvQELnfgJPnhWVQ4ZMJ?si=da245b22f51b419b',
+    spotifyIframe: 'https://open.spotify.com/embed/track/1t21HgUdwufdKbIvhT6g1G?utm_source=generator',
+    songLink: 'https://open.spotify.com/track/1t21HgUdwufdKbIvhT6g1G?si=0e0702b11d7141ce',
   },
   SOCIAL_LINKS: {
     instagram: "https://www.instagram.com/delasierra.oficial/",

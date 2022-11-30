@@ -32,7 +32,7 @@ const NewsletterForm = () => {
     <div>
       <div className="newsletter-header">
         <h2>Newsletter</h2>
-        Suscríbete para estar actualizado con las últimas noticias
+        Pronto
       </div>
       <form className="newsletter-form" onSubmit={handleSubmit}>
         <TextInput

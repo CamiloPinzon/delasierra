@@ -1,7 +1,7 @@
 .hero-container {
     display: flex;
     flex-direction: column;
-    background-image: url('https://delasierrabanda.com/gral-assets/BannerAurora.png');
+    background-image: url('https://delasierrabanda.com/gral-assets/BannerSalvaje.jpeg');
     height: 100vh;
     align-self: center;
     background-repeat: no-repeat;
@@ -9,6 +9,7 @@
     background-attachment: fixed;
     align-items: center;
     justify-content: center;
+    background-position: center;
 
     .hero-content_container {
         width: 100%;
@@ -26,7 +27,7 @@
         }
 
         .hero-content-links {
-            margin-top: 50px;
+            margin-top: 300px;
             
             .hero-content_spotify {
                 background-image: url('../../assets/svg/Spotify.svg');

@@ -1,21 +1,12 @@
-/* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
 
 import PROJECT_ROUTES from "../../assets/links/project-routes.js";
-import { ReactComponent as Aurora } from "../../assets/svg/Aurora.svg";
-import { ReactComponent as Gaiteros } from "../../assets/svg/gaiteros.svg";
 import "./hero.styles.scss";
 
 const Hero = () => {
   return (
     <div className="hero-container">
       <div className="hero-content_container">
-        <div className="hero-content_aurora">
-          <Aurora />
-        </div>
-        <div className="hero-content_gaiteros">
-          <Gaiteros />
-        </div>
         <div className="hero-content-links">
           <a
             className="song-button"
